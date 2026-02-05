@@ -1,74 +1,0 @@
-<!DOCTYPE html>
-<html lang="ar" dir="rtl">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Restaurant Menu</title>
-    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <div class="loader-container" id="loader">
-        <div class="loader-content">
-            <div class="logo-placeholder">
-                <i class="fas fa-utensils"></i> </div>
-            <h2 class="brand-name">المطعم الفاخر</h2>
-            <div class="progress-bar">
-                <div class="progress-fill"></div>
-            </div>
-            <p class="loading-text">جاري تحضير القائمة...</p>
-        </div>
-    </div>
-
-    <div class="background-animate"></div>
-
-    <main class="app-container hidden-content" id="mainContent">
-        
-        <header class="app-header">
-            <div class="header-info">
-                <h1>أهلاً بك 👋</h1>
-                <p>استمتع بأشهى المأكولات</p>
-            </div>
-            <div class="header-status">
-                <span class="pulse-dot"></span> مفتوح الآن
-            </div>
-        </header>
-
-        <section class="menu-frame-wrapper">
-            <div class="canva-embed">
-                <iframe loading="lazy" 
-                    src="https://www.canva.com/design/DAHAc-BX8pk/PtbxYKrhbLpVilRgTtHmnA/view?embed" 
-                    allowfullscreen="allowfullscreen" 
-                    allow="fullscreen">
-                </iframe>
-            </div>
-        </section>
-
-        <div class="spacer"></div>
-
-    </main>
-
-    <nav class="bottom-nav">
-        <a href="https://wa.me/201000000000" class="nav-item cta-main">
-            <i class="fab fa-whatsapp"></i>
-            <span>اطلب واتساب</span>
-        </a>
-        <a href="tel:+201000000000" class="nav-item">
-            <i class="fas fa-phone-alt"></i>
-            <span>اتصال</span>
-        </a>
-        <a href="https://maps.google.com" target="_blank" class="nav-item">
-            <i class="fas fa-map-marker-alt"></i>
-            <span>الموقع</span>
-        </a>
-        <div class="nav-item share-btn" id="shareBtn">
-            <i class="fas fa-share-nodes"></i>
-            <span>مشاركة</span>
-        </div>
-    </nav>
-
-    <script src="script.js"></script>
-</body>
-</html>
